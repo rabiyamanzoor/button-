@@ -11,7 +11,7 @@ struct ContentView: View {
     @State private var showingalert = false
     var body: some View {
         
-        Button("Button") {
+        Button("tap me") {
             showingalert = true
         }
         .alert("error", isPresented: $showingalert) {
