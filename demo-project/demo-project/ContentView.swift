@@ -14,7 +14,7 @@ struct ContentView: View {
         Button("tap me") {
             showingalert = true
         }
-        .alert("error", isPresented: $showingalert) {
+        .alert("network problem", isPresented: $showingalert) {
             
         } message: {
             Text("no network")
